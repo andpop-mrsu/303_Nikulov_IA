@@ -1,6 +1,10 @@
 insert into users(first_name, last_name, email, register_date, gender, occupation_id)
 values
+<<<<<<< HEAD
 ('Ilya', 'Nikulov', 'Nikulov_Ilya@gmail.com', date('now'), 'male', (select id from occupations as o where o.title = 'student'));
+=======
+('Julia', 'Potapkina', 'Potapkina_Julia@gmail.com', date('now'), 'female', (select id from occupations as o where o.title = 'student'));
+>>>>>>> 2752ac124f0a0e5b2e354d64d6a765d3ccd2bc1f
 insert into users(first_name, last_name, email, register_date, gender, occupation_id)
 values
 ('Dmitry', 'Parshin', 'Parshin_Dmitry@gmail.com', date('now'), 'male', (select id from occupations as o where o.title = 'student'));
@@ -9,10 +13,17 @@ values
 ('Daniil', 'Osipov', 'Osipov_Daniil@gmail.com', date('now'), 'male', (select id from occupations as o where o.title = 'student'));
 insert into users(first_name, last_name, email, register_date, gender, occupation_id)
 values
+<<<<<<< HEAD
 ('Pavel', 'Kulagin', 'Kulagin_Pavel@gmail.com', date('now'), 'male', (select id from occupations as o where o.title = 'student'));
 insert into users(first_name, last_name, email, register_date, gender, occupation_id)
 values
 ('Stepan', 'Maksimov', 'Maksimov_Stepan@gmail.com', date('now'), 'male', (select id from occupations as o where o.title = 'student'));
+=======
+('Daria', 'Rodkina', 'Rodkina_Daria@gmail.com', date('now'), 'female', (select id from occupations as o where o.title = 'student'));
+insert into users(first_name, last_name, email, register_date, gender, occupation_id)
+values
+('Alina', 'Ruzaeva', 'Ruzaeva_Alina@gmail.com', date('now'), 'female', (select id from occupations as o where o.title = 'student'));
+>>>>>>> 2752ac124f0a0e5b2e354d64d6a765d3ccd2bc1f
 
 insert into movies(title, year) 
 values('Film_1_2021', 2021),
